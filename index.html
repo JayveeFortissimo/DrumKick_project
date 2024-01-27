@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Honk&family=Rubik+Glitch+Pop&display=swap" rel="stylesheet">
+    <title>DrumKick</title>
+    <style>
+   *{
+    font-family: 'Honk', system-ui;
+
+   }
+        .Parent{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .Child{
+            display: flex;
+            gap: 50px;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+        }
+
+        button{
+            height: auto;
+            padding: 10px;
+            width: 5rem;
+            cursor: pointer;
+            border: none;
+            background-color: rgb(65, 64, 64);
+            border-radius: 5px;
+            color: aliceblue;
+            font-size: 1.3rem;
+        }
+
+        .Child div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <div class="Parent">
+
+        <div>
+            <h1>DrumKick Project</h1>
+        </div>
+
+        <div class="Child">
+            <div>
+                <button>A</button>
+                <span>Clap</span>
+            </div>
+
+            <div>
+                <button>S</button>
+                <span>hihat</span>
+            </div>
+            
+           <div>
+            <button>D</button>
+            <span>Kick</span>
+           </div>
+           
+           <div>
+            <button>F</button>
+            <span>openhat</span>
+           </div>
+
+           <div>
+            <button>G</button>
+            <span>boom</span>
+           </div>
+            
+           <div>
+            <button>H</button>
+            <span>ride</span>
+           </div>
+
+           <div>
+            <button>J</button>
+            <span>snare</span>
+           </div>
+            
+           <div>
+            <button>K</button>
+            <span>tom</span>
+           </div>
+            
+    <audio></audio>
+            
+        </div>
+
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="function.js"></script>
+</body>
+</html>
